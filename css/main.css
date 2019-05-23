@@ -4,6 +4,9 @@ body {
 }
 
 #navbar {
+    position: relative;
+    top: 1px;
+    z-index: 1;
     width: 100%;
     height: 100.4px;
     line-height: 100.4px;
@@ -168,6 +171,121 @@ h2{
     font-family: helvetica neue,Helvetica,Arial,sans-serif;
 }
 
+/* 向下箭头 */
+.arrow-bottom {
+    position: absolute;
+    top: 48px;
+    left: 378px;
+    width: 0;   
+    height: 0;   
+    border-left: 4px solid transparent;  /* 左边框的宽 */  
+    border-right: 4px solid transparent; /* 右边框的宽 */  
+    border-top: 7px solid white; /* 下边框的长度|高,以及背景色 */  
+    font-size: 0;  
+    line-height: 0; 
+  }
 
+#main-menu {
+    z-index: 2;
+    top: 80px;
+    left: 310px;
+    position: absolute;
+    width: 750px;
+    height: 300px;
+    /* background: red; */
+    display: none;
+}
 
+#main-menu div {
+    float: left;
+}
+
+#sub-one {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+    /* display: none; */
+    width: 490px;
+    height: 288.8px;
+    /* background: green; */
+}
+
+#sub-two{
+    position: absolute;
+    right: 0px;
+    width: 260px;
+    height: 300px;
+    background: yellow;
+
+}
+
+#sub-one h3{
+    margin-left: 23px;
+}
+
+h3{
+    color: #616161;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: centurygothicregular;
+    font-size: 24px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#sub-one ul {
+    column-count: 2;
+    column-gap: 30px;
+    list-style: none;
+    padding: 0;
+    /* margin-top: 0;
+    margin-bottom: 10px; */
+}
+#sub-two ul{
+    list-style: none;
+}
+
+#sub-two li{
+    width: 200px;
+    margin-left: 25px;
+
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#sub-one li {
+    width: 200px;
+    margin-left: 20px;
+    /* line-height: 1.7;  */
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#main-menu a{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+#sub-two{
+    float: left;
+    /* padding: 30px; */
+    height: 300px;
+    background-color: #e2f6f2;
+    display: block;
+}
+
+#sub-two h3{
+
+    color: #004445;
+    font-weight: 700;
+    margin-top: 29px;  
+    margin-left: 25px;
+    font-family: centurygothicregular;
+    font-size: 24px;
+}
 
