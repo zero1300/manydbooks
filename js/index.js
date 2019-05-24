@@ -46,13 +46,13 @@ function buttonsShow() {
 }
 
 function animate1(){
-    list.style.left = (-1549) + 'px';
+    list.style.left = (-1525) + 'px';
     index = 2;
     buttonsShow();
 }
 
 function animate2(){
-    list.style.left = (-3070) + 'px';
+    list.style.left = (-3038) + 'px';
     index = 3;
     buttonsShow();
 }

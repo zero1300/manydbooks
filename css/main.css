@@ -102,32 +102,32 @@ body {
     /* background-image: url(../image/bookdisplaysmall.jpg) */
 }
 
-ul h1{
+ul h1 {
     text-align: center;
     color: white;
     margin-top: 50px;
     font-size: 50px;
 }
 
-ul p{
+ul p {
     margin-left: 15%;
     margin-top: 50px;
     color: white;
 }
 
-.item1{
+.item1 {
     background-image: url(../image/bookdisplaysmall.jpg);
     background-size: 100% 260px;
-    
+
 }
- 
-.item2{
+
+.item2 {
     background-image: url(../image/bookcoverssmall2.jpg);
     background-size: 100% 260px;
 
 }
 
-.item3{
+.item3 {
     background-image: url(../image/bookstackssmall.jpg);
     background-size: 100% 260px;
 }
@@ -140,22 +140,22 @@ ul p{
     clear: both;
 }
 
-h2{
+h2 {
     font-size: 20px;
     margin-top: 20px;
 }
 
-.block-header{
+.block-header {
     width: 100%;
     height: 66px;
     line-height: 66px;
 }
 
-.block-header *{
+.block-header * {
     float: left;
 }
 
-.block-header h2{
+.block-header h2 {
     margin-left: 10%;
     color: #616161;
     font-weight: 700;
@@ -165,14 +165,14 @@ h2{
     font-family: centurygothicregular;
 }
 
-.block-header a{
+.block-header a {
     /* margin-left: 13px; */
-    color: #17a288;     
+    color: #17a288;
     /* font-size: 15px; */
     margin-top: 25px;
     margin-left: 1em;
     font-size: 16px;
-    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
 }
 
 /* 向下箭头 */
@@ -180,14 +180,17 @@ h2{
     position: absolute;
     top: 48px;
     left: 378px;
-    width: 0;   
-    height: 0;   
-    border-left: 4px solid transparent;  /* 左边框的宽 */  
-    border-right: 4px solid transparent; /* 右边框的宽 */  
-    border-top: 7px solid white; /* 下边框的长度|高,以及背景色 */  
-    font-size: 0;  
-    line-height: 0; 
-  }
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    /* 左边框的宽 */
+    border-right: 4px solid transparent;
+    /* 右边框的宽 */
+    border-top: 7px solid white;
+    /* 下边框的长度|高,以及背景色 */
+    font-size: 0;
+    line-height: 0;
+}
 
 #main-menu {
     z-index: 2;
@@ -215,7 +218,7 @@ h2{
     /* background: green; */
 }
 
-#sub-two{
+#sub-two {
     position: absolute;
     right: 0px;
     width: 260px;
@@ -224,11 +227,11 @@ h2{
 
 }
 
-#sub-one h3{
+#sub-one h3 {
     margin-left: 23px;
 }
 
-h3{
+h3 {
     color: #616161;
     font-weight: 700;
     margin-top: 0;
@@ -248,11 +251,12 @@ h3{
     /* margin-top: 0;
     margin-bottom: 10px; */
 }
-#sub-two ul{
+
+#sub-two ul {
     list-style: none;
 }
 
-#sub-two li{
+#sub-two li {
     width: 200px;
     margin-left: 25px;
 
@@ -268,14 +272,14 @@ h3{
     text-align: -webkit-match-parent;
 }
 
-#main-menu a{
+#main-menu a {
     text-transform: capitalize;
     font-size: 18px;
     color: #9b9b9b;
     text-decoration: none;
 }
 
-#sub-two{
+#sub-two {
     float: left;
     /* padding: 30px; */
     height: 300px;
@@ -283,11 +287,11 @@ h3{
     display: block;
 }
 
-#sub-two h3{
+#sub-two h3 {
 
     color: #004445;
     font-weight: 700;
-    margin-top: 29px;  
+    margin-top: 29px;
     margin-left: 25px;
     font-family: centurygothicregular;
     font-size: 24px;
@@ -335,14 +339,112 @@ h3{
     cursor: pointer;
 }
 
-
-
-
-
 #prev {
     left: 20px;
 }
 
 #next {
     right: 20px;
+}
+
+/* 书籍分类 */
+#book-sort {
+    margin-left: 7.5%;
+    margin-top: 50px;
+    width: 1200px;
+    height: 620px;
+    /* background: red; */
+}
+
+#book-sort div {
+    float: left;
+    width: 21%;
+    margin-left: 3.2%;
+    height: 27%;
+    margin-top: 3%;
+    /* background: #17a288; */
+}
+
+#div1 a {
+    background: url(../image/ROMANE.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div2 a {
+    background: url(../image/ACTION.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div3 a {
+    background: url(../image/mystery.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div4 a{
+    background: url(../image/blog.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div5 a{
+    background: url(../image/child.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div6 a{
+    background: url(../image/young.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div7 a{
+    background: url(../image/fantasy.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div8 a{
+    background: url(../image/his.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div9 a{
+    background: url(../image/hor.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div10 a{
+    background: url(../image/lit.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div11 a{
+    background: url(../image/non.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
+}
+
+#div12 a{
+    background: url(../image/sci.PNG);
+    width: 252px;
+    height: 167px;
+    display: block;
 }
