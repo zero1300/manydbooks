@@ -29,7 +29,6 @@ var spot3 = document.getElementById("spot3");
 var index = 1;
 var timer;
 
-
 function animate(offset) {
     var newLeft = parseInt(list.offsetLeft) + offset;
     list.style.left = newLeft + 'px';
@@ -45,7 +44,6 @@ function buttonsShow() {
     //数组从0开始，故index需要-1
     buttons[index - 1].className = "on";
 }
-
 
 function animate1(){
     list.style.left = (-1549) + 'px';
@@ -82,7 +80,7 @@ function play() {
         }else{
             animate0()
         }
-    }, 2000)
+    }, 5000)
 }
 
 function stop() {
