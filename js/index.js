@@ -71,3 +71,23 @@ spot1.addEventListener("click", animate0)
 spot2.addEventListener("click", animate1)
 spot3.addEventListener("click", animate2)
 
+function play() {
+    //重复执行的定时器
+    timer = setInterval(function () {
+        if (index == 1){
+            animate1()
+        }
+        else if (index == 2){
+            animate2()
+        }else{
+            animate0()
+        }
+    }, 2000)
+}
+
+function stop() {
+    clearInterval(timer);
+}
+
+play();
+
