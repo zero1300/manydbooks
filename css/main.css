@@ -79,11 +79,15 @@ body {
 }
 
 .container {
+    /* position: absolute;
+    left: 0px; */
     width: 100%;
     overflow: hidden;
 }
 
 .list {
+    position: relative;
+    left: 0px;
     width: 300%;
     list-style: none;
     margin-left: 0;
@@ -289,3 +293,56 @@ h3{
     font-size: 24px;
 }
 
+/* 小圆点 */
+#buttons {
+    position: absolute;
+    left: 1320px;
+    bottom: 380px;
+    z-index: 2;
+    height: 10px;
+    width: 100px;
+}
+
+
+#buttons span {
+    float: left;
+    margin-right: 20px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+
+#buttons .on {
+    background: white;
+}
+
+.arrow {
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+
+
+
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
