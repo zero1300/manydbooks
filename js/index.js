@@ -35,18 +35,35 @@ function animate(offset) {
     list.style.left = newLeft + 'px';
 }
 
+function buttonsShow() {
+    //将之前的小圆点的样式清除
+    for (var i = 0; i < buttons.length; i++) {
+        if (buttons[i].className == "on") {
+            buttons[i].className = "";
+        }
+    }
+    //数组从0开始，故index需要-1
+    buttons[index - 1].className = "on";
+}
+
 
 function animate1(){
     list.style.left = (-1549) + 'px';
+    index = 2;
+    buttonsShow();
 }
 
 function animate2(){
     list.style.left = (-3070) + 'px';
+    index = 3;
+    buttonsShow();
 }
 
 
 function animate0(){
     list.style.left = 0 + 'px';
+    index = 1;
+    buttonsShow();
 }
 
 
