@@ -91,4 +91,60 @@ play();
 
 // 第二个轮播图
 var box2 = document.getElementById("box2");
-var oldLeft = box2.offsetLeft;
+var next =  document.getElementById("next");
+var prev =  document.getElementById("prev");
+// alert(box2.offsetLeft);
+if (box2.offsetLeft == 132){
+    prev.style.display = "none";
+}
+
+// if (box2.offsetLeft == (-1353)){
+//     next.style.display = "none";
+// }
+
+function move(offset){
+    // alert("sec");
+    var oldLeft = box2.offsetLeft;
+    var newLeft;
+
+    
+    if (offset>0){
+        newLeft = oldLeft+offset + "px";
+        newLeftInt = oldLeft+offset;
+        
+        if ((newLeftInt)>0){
+            prev.style.display = "none";
+            next.style.display = "block";
+            box2.style.left = -1 + "px";
+        }else{
+            box2.style.left = newLeft;
+            next.style.display = "block";
+        }
+        
+    }else{
+        if (oldLeft <= (-640)){
+            newLeft = -1160+"px"
+            box2.style.left = newLeft;
+            next.style.display = "none";
+            prev.style.display = "block";
+        }else{
+            prev.style.display = "block";
+            newLeft = oldLeft + offset +"px"
+            box2.style.left = newLeft;
+        }
+    }
+    
+}
+
+function ne(){
+    // alert("")
+    move(-325)
+}
+function pr(){
+    move(60)
+}
+
+next.addEventListener("click", ne)
+prev.addEventListener("click", pr)
+
+
