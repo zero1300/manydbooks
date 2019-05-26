@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+ul {
+    list-style: none;
+}
+
 #navbar {
     position: relative;
     top: 0px;
@@ -323,9 +327,10 @@ h3 {
     background: white;
 }
 
-.arrow {
+/* .arrow {
+    text-decoration: none;
     position: absolute;
-    top: 180px;
+    top: 1330px;
     z-index: 2;
     display: none;
     width: 40px;
@@ -335,16 +340,36 @@ h3 {
     line-height: 39px;
     text-align: center;
     color: #fff;
-    background-color: RGBA(0, 0, 0, .3);
+    background-color: RGBA(0, 10, 0, 0.1 );
     cursor: pointer;
-}
+} */
 
 #prev {
-    left: 20px;
+    position: absolute;
+    left: 100px;
+    top: 1330px;
+    height: 32px;
+    width: 18px;
+    background-image: url(../img/next.png);
+    background-size: cover;
+    background-position-x: 25px;
+    z-index: 1;
+    cursor: pointer
+    /* left: 110px; */
 }
 
 #next {
-    right: 20px;
+    position: absolute;
+    right: 199px;
+    top: 1330px;
+    height: 32px;
+    width: 18px;
+    background-image: url(../img/prev.png);
+    background-size: cover;
+    background-position-x: 25px;
+    z-index: 1;
+    cursor: pointer
+    /* left: 110px; */
 }
 
 /* 书籍分类 */
@@ -386,65 +411,119 @@ h3 {
     display: block;
 }
 
-#div4 a{
+#div4 a {
     background: url(../image/blog.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div5 a{
+#div5 a {
     background: url(../image/child.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div6 a{
+#div6 a {
     background: url(../image/young.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div7 a{
+#div7 a {
     background: url(../image/fantasy.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div8 a{
+#div8 a {
     background: url(../image/his.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div9 a{
+#div9 a {
     background: url(../image/hor.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div10 a{
+#div10 a {
     background: url(../image/lit.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div11 a{
+#div11 a {
     background: url(../image/non.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
 
-#div12 a{
+#div12 a {
     background: url(../image/sci.PNG);
     width: 252px;
     height: 167px;
     display: block;
 }
+
+
+/* 第二个轮播图 */
+#title {
+    width: 1440px;
+    height: 66.6px;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+}
+
+#box {
+    margin-left: 132px;
+    margin-top: 50px;
+    width: 1158px;
+    height: 351px;
+    overflow: hidden;
+}
+
+
+#box2 {
+    position: relative;
+    left: 0px;
+    /* (2315,2316] */
+    width: 2316px;
+    height: 307px;
+    /* overflow: -moz-hidden-unscrollable; */
+    /* margin-left: 0px; */
+    /* overflow: auto; */
+
+}
+
+
+.box3 {
+    float: left;
+    margin-left: 20px;
+    width: 173px;
+    height: 305px;
+}
+
+.box3 img {
+    width: 173px;
+    height: 260px;
+}
+
+.box3 a{
+    font-size: 16px;
+}
+

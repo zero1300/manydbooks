@@ -45,20 +45,20 @@ function buttonsShow() {
     buttons[index - 1].className = "on";
 }
 
-function animate1(){
+function animate1() {
     list.style.left = (-1525) + 'px';
     index = 2;
     buttonsShow();
 }
 
-function animate2(){
+function animate2() {
     list.style.left = (-3038) + 'px';
     index = 3;
     buttonsShow();
 }
 
 
-function animate0(){
+function animate0() {
     list.style.left = 0 + 'px';
     index = 1;
     buttonsShow();
@@ -72,12 +72,11 @@ spot3.addEventListener("click", animate2)
 function play() {
     //重复执行的定时器
     timer = setInterval(function () {
-        if (index == 1){
+        if (index == 1) {
             animate1()
-        }
-        else if (index == 2){
+        } else if (index == 2) {
             animate2()
-        }else{
+        } else {
             animate0()
         }
     }, 5000)
@@ -89,3 +88,7 @@ function stop() {
 
 play();
 
+
+// 第二个轮播图
+var box2 = document.getElementById("box2");
+var oldLeft = box2.offsetLeft;
