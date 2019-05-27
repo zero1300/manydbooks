@@ -529,3 +529,36 @@ h3 {
     font-size: 16px;
 }
 
+
+/* trending books */
+#big{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 1400px;
+    height: 378px;
+}
+
+#big img{
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 267px;
+    cursor: pointer;
+}
+
+#bottom-word{
+    margin-top: -105px;
+    margin-left: 10%;
+    width: 1400px;
+    height: 88px;
+}
+
+#bottom-word div{
+    font-size: 16px;
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 86px;
+    cursor: pointer;
+}
+
