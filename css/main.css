@@ -562,3 +562,91 @@ h3 {
     cursor: pointer;
 }
 
+#part1{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 1164px;
+    height: 280px;
+}
+
+#part1 img{
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 267px;
+    cursor: pointer;
+}
+
+#font-part{
+    margin-top: 0px;
+    margin-left: 150px;
+}
+
+#font-part div{
+    font-size: 16px;
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 86px;
+    cursor: pointer;
+}
+
+#part2{
+    margin-left: 150px;
+    width: 1164px;
+    height: 280px;
+}
+
+#part2 img{
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 267px;
+    cursor: pointer;
+}
+
+#font-part2{
+    height: 88px;
+    margin-top: 85px;
+    margin-left: 150px;
+}
+
+#font-part2 div{
+    font-size: 16px;
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 86px;
+    cursor: pointer;
+}
+
+#part3{
+    margin-left: 150px;
+    width: 1164px;
+    height: 280px;
+}
+
+#part3 img{
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 267px;
+    cursor: pointer;
+}
+
+#font-part3{
+    height: 88px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+#font-part3 div{
+    font-size: 16px;
+    margin-right: 16px;
+    float: left;
+    width: 178px;
+    height: 86px;
+    cursor: pointer;
+}
+
+
