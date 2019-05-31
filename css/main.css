@@ -650,3 +650,32 @@ h3 {
 }
 
 
+#image-part{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 1180px;
+    height: 317px;;
+}
+
+#image-part img{
+    margin-right: 30px;
+    float: left;
+    width: 560px;
+    height: 315px;
+}
+
+#span-part{
+    margin-left: 150px;
+    width: 1180px;
+    height: 26px;;
+}
+
+#span-part div{
+    margin-right: 182px;
+    float: left;
+    width: 406px;
+    height: 24px;
+}
+
+
+
