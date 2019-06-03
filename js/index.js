@@ -150,7 +150,7 @@ prev.addEventListener("click", pr)
 
 var read_more = document.getElementById("read-more")
 var read_more2 = document.getElementById("read-more2")
-
+var last = document.getElementById("last");
 var context = document.getElementsByClassName("context")
 var expand = false;
 var expand2 = false;
@@ -183,6 +183,7 @@ function click_read_more2(){
         expand2 = 1;
         read_more2.innerHTML = "close";
         read_more2.style.marginTop = "50px";
+        last.style.marginTop = "50px";
     }
 }
 
