@@ -36,6 +36,7 @@ ul {
     margin-left: 5%;
     color: white;
     font-family: monospace;
+    cursor: pointer;
 }
 
 .search-frame {
@@ -194,6 +195,7 @@ h2 {
     /* 下边框的长度|高,以及背景色 */
     font-size: 0;
     line-height: 0;
+    cursor: pointer;
 }
 
 #main-menu {
@@ -355,7 +357,7 @@ h3 {
     background-size: cover;
     background-position-x: 25px;
     z-index: 1;
-    cursor: pointer
+    cursor: pointer;
     /* left: 110px; */
 }
 
@@ -370,7 +372,7 @@ h3 {
     background-size: cover;
     background-position-x: 25px;
     z-index: 1;
-    cursor: pointer
+    cursor: pointer;
     /* left: 110px; */
 }
 
@@ -654,7 +656,8 @@ h3 {
     margin-left: 150px;
     margin-top: 50px;
     width: 1180px;
-    height: 317px;;
+    height: 317px;
+    cursor: pointer;
 }
 
 #image-part img{
@@ -667,15 +670,67 @@ h3 {
 #span-part{
     margin-left: 150px;
     width: 1180px;
-    height: 26px;;
+    height: 26px;
+    cursor: pointer;
 }
 
 #span-part div{
     margin-right: 182px;
+    margin-bottom: 130px;
     float: left;
     width: 406px;
     height: 24px;
 }
+
+.user{
+    height: 20px;
+}
+.user a{
+    color: #17a288;
+}
+
+#comment{
+    margin-left: 150px;
+    margin-top: 200px;
+    width: 1200px;
+    height: 600px;
+}
+
+.view-row{
+    width: 1200px;
+    height: 200px;
+}
+
+.user img{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.user span{
+    margin-left: 20px;
+    float: left;
+    font-size: 16px;
+}
+
+.context{
+    height: 55px;
+    margin-top: 40px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.btn{
+    font-size: 16px;
+    color: #17a288;
+    cursor: pointer;
+}
+
+#sec-comment{
+    margin-top: 40px;
+}
+
+
 
 
 

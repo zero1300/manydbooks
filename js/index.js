@@ -148,3 +148,48 @@ next.addEventListener("click", ne)
 prev.addEventListener("click", pr)
 
 
+var read_more = document.getElementById("read-more")
+var read_more2 = document.getElementById("read-more2")
+
+var context = document.getElementsByClassName("context")
+var expand = false;
+var expand2 = false;
+
+
+function click_read_more(){
+    if (expand){
+        context[0].style.overflow = "hidden";
+        context[0].style.height = "55px";
+        expand = 0;
+        read_more.innerHTML = "read more";
+    }else{
+        context[0].style.overflow = "visible";
+        context[0].style.height = "100px";
+        expand = 1;
+        read_more.innerHTML = "close";
+    }
+}
+
+function click_read_more2(){
+    if (expand2){
+        context[1].style.overflow = "hidden";
+        context[1].style.height = "55px";
+        expand2 = 0;
+        read_more2.innerHTML = "read more";
+        read_more2.style.marginTop = "0px";
+    }else{
+        context[1].style.overflow = "visible";
+        context[1].style.height = "100px";
+        expand2 = 1;
+        read_more2.innerHTML = "close";
+        read_more2.style.marginTop = "50px";
+    }
+}
+
+read_more2.addEventListener("click", click_read_more2);
+read_more.addEventListener("click", click_read_more);
+
+
+
+
+
